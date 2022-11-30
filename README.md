@@ -72,10 +72,10 @@ In the ``data63.xlsx``, ``data90.xlsx``, and ``data124.xlsx`` file, each row rep
 
 8. wall clock time (seconds) for solving the continuous relaxations of MESP (seconds):
 
-   * Column ‘V’: linx with BFGS method
-   * Column ‘W’: linx with Newton method
-   * Column ‘X’: DDFact with BFGS method
-   * Column ‘Y’: comp DDFact with BFGS method
+   * column ‘V’: linx with BFGS method
+   * column ‘W’: linx with Newton method
+   * column ‘X’: DDFact with BFGS method
+   * column ‘Y’: comp DDFact with BFGS method
 
    
 
@@ -136,16 +136,16 @@ In the ``data63mix.xlsx`` and``data90mix.xlsx`` file, each row represents the re
 1. upper bounds constructed from dual feasible solutions:
 
    * column ‘C’: DDFact
-   * Column ‘D’: linx
+   * column ‘D’: linx
 
-   * Column ‘E’: mixing DDFact and linx
+   * column ‘E’: mixing DDFact and linx
 
 2. integrality gaps:
 
    * column ‘F’: DDFact
-   * Column ‘G’: linx
+   * column ‘G’: linx
 
-   * Column ‘H’: mixing DDFact and linx
+   * column ‘H’: mixing DDFact and linx
 
 3. mixing parameters, ranging from $0$ to $1$:
 
@@ -158,28 +158,28 @@ In the ``data124mix.xlsx`` file, each row represents the results for a specific 
 1. upper bounds constructed from dual feasible solutions:
 
    * column ‘C’: DDFact
-   * Column ‘D’: comp DDFact
-   * Column ‘E’: linx
+   * column ‘D’: comp DDFact
+   * column ‘E’: linx
 
-   * Column ‘F’: mixing DDFact and comp DDFact
-   * Column ‘G’: mixing DDFact and linx
-   * Column ‘H’: mixing comp DDFact and linx
+   * column ‘F’: mixing DDFact and comp DDFact
+   * column ‘G’: mixing DDFact and linx
+   * column ‘H’: mixing comp DDFact and linx
 
 2. integrality gaps:
 
    * column ‘I’: DDFact
-   * Column ‘J’: comp DDFact
+   * column ‘J’: comp DDFact
    * Column ‘K’: linx
 
-   * Column ‘L’: mixing DDFact and comp DDFact
-   * Column ‘M’: mixing DDFact and linx
-   * Column ‘N’: mixing comp DDFact and linx
+   * column ‘L’: mixing DDFact and comp DDFact
+   * column ‘M’: mixing DDFact and linx
+   * column ‘N’: mixing comp DDFact and linx
 
 3. mixing parameters, ranging from $0$ to $1$:
 
    * column ‘O’: mixing DDFact and comp DDFact
-   * Column ‘P’: mixing DDFact and linx
-   * Column ‘Q’: mixing comp DDFact and linx
+   * column ‘P’: mixing DDFact and linx
+   * column ‘Q’: mixing comp DDFact and linx
 
 
 #### Results-constrained ####
@@ -194,57 +194,57 @@ In the .xlsx file, each row represents the results for a specific $s$. The colum
    * Column ‘C’
 2. upper bounds constructed from dual feasible solutions 
    * column ‘D’: DDFact
-   * Column ‘E’: comp DDFact
-   * Column ‘F’: linx
-   * Column ‘G’: mixing DDFact and comp DDFact
-   * Column ‘H’: mixing DDFact and linx
-   * Column ‘I’: mixing comp DDFact and linx
+   * column ‘E’: comp DDFact
+   * column ‘F’: linx
+   * column ‘G’: mixing DDFact and comp DDFact
+   * column ‘H’: mixing DDFact and linx
+   * column ‘I’: mixing comp DDFact and linx
 3. integrality gaps:
    * column ‘J’: DDFact
-   * Column ‘K’: comp DDFact
-   * Column ‘L’: linx
-   * Column ‘M’: mixing DDFact and comp DDFact
-   * Column ‘N’: mixing DDFact and linx
-   * Column ‘O’: mixing comp DDFact and linx
+   * column ‘K’: comp DDFact
+   * column ‘L’: linx
+   * column ‘M’: mixing DDFact and comp DDFact
+   * column ‘N’: mixing DDFact and linx
+   * column ‘O’: mixing comp DDFact and linx
 4. duality gaps when solving the continuous realxations of MESP, optimality verification:
    * column ‘P’: DDFact
-   * Column ‘Q’: comp DDFact
-   * Column ‘R’: linx
-   * Column ‘S’: mixing DDFact and comp DDFact
-   * Column ‘T’: mixing DDFact and linx
-   * Column ‘U’: mixing comp DDFact and linx
+   * column ‘Q’: comp DDFact
+   * column ‘R’: linx
+   * column ‘S’: mixing DDFact and comp DDFact
+   * column ‘T’: mixing DDFact and linx
+   * column ‘U’: mixing comp DDFact and linx
 5. number of variables fixed to $0$:
    * column ‘V’: DDFact
-   * Column ‘W’: comp DDFact
-   * Column ‘X’: linx
-   * Column ‘Y’: mixing DDFact and comp DDFact
-   * Column ‘Z’: mixing DDFact and linx
-   * Column ‘AA’: mixing comp DDFact and linx
+   * column ‘W’: comp DDFact
+   * column ‘X’: linx
+   * column ‘Y’: mixing DDFact and comp DDFact
+   * column ‘Z’: mixing DDFact and linx
+   * column ‘AA’: mixing comp DDFact and linx
 6. number of variables fixed to $1$:
    * column ‘AB’: DDFact
-   * Column ‘AC’: comp DDFact
-   * Column ‘AD’: linx
-   * Column ‘AE’: mixing DDFact and comp DDFact
-   * Column ‘AF’: mixing DDFact and linx
-   * Column ‘AG’: mixing comp DDFact and linx
+   * column ‘AC’: comp DDFact
+   * column ‘AD’: linx
+   * column ‘AE’: mixing DDFact and comp DDFact
+   * column ‘AF’: mixing DDFact and linx
+   * column ‘AG’: mixing comp DDFact and linx
 7. number of variables fixed to $0$ or $1$:
    * column ‘AH’: DDFact
-   * Column ‘AI’: comp DDFact
-   * Column ‘AJ’: linx
-   * Column ‘AK’: mixing DDFact and comp DDFact
-   * Column ‘AL’: mixing DDFact and linx
-   * Column ‘AM’: mixing comp DDFact and linx
+   * column ‘AI’: comp DDFact
+   * column ‘AJ’: linx
+   * column ‘AK’: mixing DDFact and comp DDFact
+   * column ‘AL’: mixing DDFact and linx
+   * column ‘AM’: mixing comp DDFact and linx
 8. mixing parameter values for mixing upper bounds:
-   * Column ‘AN’: mixing DDFact and comp DDFact
-   * Column ‘AO’: mixing DDFact and linx
-   * Column ‘AP’: mixing comp DDFact and linx
+   * column ‘AN’: mixing DDFact and comp DDFact
+   * column ‘AO’: mixing DDFact and linx
+   * column ‘AP’: mixing comp DDFact and linx
 9. wall clock time for solving the continuous relaxations of MESP:
    * column ‘AQ’: DDFact
-   * Column ‘AR’: comp DDFact
-   * Column ‘AS’: linx
-   * Column ‘AT’: mixing DDFact and comp DDFact
-   * Column ‘AU’: mixing DDFact and linx
-   * Column ‘AV’: mixing comp DDFact and linx
+   * column ‘AR’: comp DDFact
+   * column ‘AS’: linx
+   * column ‘AT’: mixing DDFact and comp DDFact
+   * column ‘AU’: mixing DDFact and linx
+   * column ‘AV’: mixing comp DDFact and linx
 
 
 ### Graph ###
